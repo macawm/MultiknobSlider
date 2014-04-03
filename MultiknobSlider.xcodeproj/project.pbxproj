@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D220B1115EFE69A00DEFF9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D220B1015EFE69A00DEFF9B /* Cocoa.framework */; };
+		7D220B1B15EFE69A00DEFF9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D220B1915EFE69A00DEFF9B /* InfoPlist.strings */; };
+		7D220B1D15EFE69A00DEFF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B1C15EFE69A00DEFF9B /* main.m */; };
+		7D220B2115EFE69A00DEFF9B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D220B1F15EFE69A00DEFF9B /* Credits.rtf */; };
+		7D220B2415EFE69A00DEFF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B2315EFE69A00DEFF9B /* AppDelegate.m */; };
+		7D220B2715EFE69A00DEFF9B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D220B2515EFE69A00DEFF9B /* MainMenu.xib */; };
+		7D220B3015EFE72900DEFF9B /* MultiknobSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B2F15EFE72900DEFF9B /* MultiknobSlider.m */; };
+		7D220B3315EFE77900DEFF9B /* MultiknobSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B3215EFE77900DEFF9B /* MultiknobSliderCell.m */; };
+		7D220B4215F6AE9700DEFF9B /* KnobArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B4115F6AE9700DEFF9B /* KnobArray.m */; };
+		7D220B4915F6D5A200DEFF9B /* MultiknobTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B4815F6D5A200DEFF9B /* MultiknobTableCellView.m */; };
+		7D220B5415F80DDB00DEFF9B /* MultiknobTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D220B5315F80DDB00DEFF9B /* MultiknobTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D220B0C15EFE69A00DEFF9B /* MultiknobSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiknobSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D220B1015EFE69A00DEFF9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7D220B1315EFE69A00DEFF9B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7D220B1415EFE69A00DEFF9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D220B1515EFE69A00DEFF9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D220B1815EFE69A00DEFF9B /* MultiknobSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiknobSlider-Info.plist"; sourceTree = "<group>"; };
+		7D220B1A15EFE69A00DEFF9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D220B1C15EFE69A00DEFF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D220B1E15EFE69A00DEFF9B /* MultiknobSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiknobSlider-Prefix.pch"; sourceTree = "<group>"; };
+		7D220B2015EFE69A00DEFF9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7D220B2215EFE69A00DEFF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D220B2315EFE69A00DEFF9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D220B2615EFE69A00DEFF9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D220B2E15EFE72900DEFF9B /* MultiknobSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiknobSlider.h; sourceTree = "<group>"; };
+		7D220B2F15EFE72900DEFF9B /* MultiknobSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiknobSlider.m; sourceTree = "<group>"; };
+		7D220B3115EFE77900DEFF9B /* MultiknobSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiknobSliderCell.h; sourceTree = "<group>"; };
+		7D220B3215EFE77900DEFF9B /* MultiknobSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiknobSliderCell.m; sourceTree = "<group>"; };
+		7D220B4015F6AE9700DEFF9B /* KnobArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnobArray.h; sourceTree = "<group>"; };
+		7D220B4115F6AE9700DEFF9B /* KnobArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnobArray.m; sourceTree = "<group>"; };
+		7D220B4715F6D5A200DEFF9B /* MultiknobTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiknobTableCellView.h; sourceTree = "<group>"; };
+		7D220B4815F6D5A200DEFF9B /* MultiknobTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiknobTableCellView.m; sourceTree = "<group>"; };
+		7D220B5215F80DDB00DEFF9B /* MultiknobTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiknobTableView.h; sourceTree = "<group>"; };
+		7D220B5315F80DDB00DEFF9B /* MultiknobTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiknobTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D220B0915EFE69A00DEFF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D220B1115EFE69A00DEFF9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D220B0115EFE69900DEFF9B = {
+			isa = PBXGroup;
+			children = (
+				7D220B1615EFE69A00DEFF9B /* MultiknobSlider */,
+				7D220B0F15EFE69A00DEFF9B /* Frameworks */,
+				7D220B0D15EFE69A00DEFF9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D220B0D15EFE69A00DEFF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D220B0C15EFE69A00DEFF9B /* MultiknobSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D220B0F15EFE69A00DEFF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D220B1015EFE69A00DEFF9B /* Cocoa.framework */,
+				7D220B1215EFE69A00DEFF9B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D220B1215EFE69A00DEFF9B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D220B1315EFE69A00DEFF9B /* AppKit.framework */,
+				7D220B1415EFE69A00DEFF9B /* CoreData.framework */,
+				7D220B1515EFE69A00DEFF9B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7D220B1615EFE69A00DEFF9B /* MultiknobSlider */ = {
+			isa = PBXGroup;
+			children = (
+				7D220B2215EFE69A00DEFF9B /* AppDelegate.h */,
+				7D220B2315EFE69A00DEFF9B /* AppDelegate.m */,
+				7D220B2515EFE69A00DEFF9B /* MainMenu.xib */,
+				7D220B5215F80DDB00DEFF9B /* MultiknobTableView.h */,
+				7D220B5315F80DDB00DEFF9B /* MultiknobTableView.m */,
+				7D220B4715F6D5A200DEFF9B /* MultiknobTableCellView.h */,
+				7D220B4815F6D5A200DEFF9B /* MultiknobTableCellView.m */,
+				7D220B2D15EFE6F900DEFF9B /* Mulitknob */,
+				7D220B1715EFE69A00DEFF9B /* Supporting Files */,
+			);
+			path = MultiknobSlider;
+			sourceTree = "<group>";
+		};
+		7D220B1715EFE69A00DEFF9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D220B1815EFE69A00DEFF9B /* MultiknobSlider-Info.plist */,
+				7D220B1915EFE69A00DEFF9B /* InfoPlist.strings */,
+				7D220B1C15EFE69A00DEFF9B /* main.m */,
+				7D220B1E15EFE69A00DEFF9B /* MultiknobSlider-Prefix.pch */,
+				7D220B1F15EFE69A00DEFF9B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D220B2D15EFE6F900DEFF9B /* Mulitknob */ = {
+			isa = PBXGroup;
+			children = (
+				7D220B2E15EFE72900DEFF9B /* MultiknobSlider.h */,
+				7D220B2F15EFE72900DEFF9B /* MultiknobSlider.m */,
+				7D220B3115EFE77900DEFF9B /* MultiknobSliderCell.h */,
+				7D220B3215EFE77900DEFF9B /* MultiknobSliderCell.m */,
+				7D220B4015F6AE9700DEFF9B /* KnobArray.h */,
+				7D220B4115F6AE9700DEFF9B /* KnobArray.m */,
+			);
+			name = Mulitknob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D220B0B15EFE69A00DEFF9B /* MultiknobSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D220B2A15EFE69A00DEFF9B /* Build configuration list for PBXNativeTarget "MultiknobSlider" */;
+			buildPhases = (
+				7D220B0815EFE69A00DEFF9B /* Sources */,
+				7D220B0915EFE69A00DEFF9B /* Frameworks */,
+				7D220B0A15EFE69A00DEFF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiknobSlider;
+			productName = MultiknobSlider;
+			productReference = 7D220B0C15EFE69A00DEFF9B /* MultiknobSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D220B0315EFE69900DEFF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Synapse Software";
+			};
+			buildConfigurationList = 7D220B0615EFE69900DEFF9B /* Build configuration list for PBXProject "MultiknobSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D220B0115EFE69900DEFF9B;
+			productRefGroup = 7D220B0D15EFE69A00DEFF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D220B0B15EFE69A00DEFF9B /* MultiknobSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D220B0A15EFE69A00DEFF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D220B1B15EFE69A00DEFF9B /* InfoPlist.strings in Resources */,
+				7D220B2115EFE69A00DEFF9B /* Credits.rtf in Resources */,
+				7D220B2715EFE69A00DEFF9B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D220B0815EFE69A00DEFF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D220B1D15EFE69A00DEFF9B /* main.m in Sources */,
+				7D220B2415EFE69A00DEFF9B /* AppDelegate.m in Sources */,
+				7D220B3015EFE72900DEFF9B /* MultiknobSlider.m in Sources */,
+				7D220B3315EFE77900DEFF9B /* MultiknobSliderCell.m in Sources */,
+				7D220B4215F6AE9700DEFF9B /* KnobArray.m in Sources */,
+				7D220B4915F6D5A200DEFF9B /* MultiknobTableCellView.m in Sources */,
+				7D220B5415F80DDB00DEFF9B /* MultiknobTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D220B1915EFE69A00DEFF9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D220B1A15EFE69A00DEFF9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D220B1F15EFE69A00DEFF9B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D220B2015EFE69A00DEFF9B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7D220B2515EFE69A00DEFF9B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D220B2615EFE69A00DEFF9B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D220B2815EFE69A00DEFF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D220B2915EFE69A00DEFF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D220B2B15EFE69A00DEFF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiknobSlider/MultiknobSlider-Prefix.pch";
+				INFOPLIST_FILE = "MultiknobSlider/MultiknobSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D220B2C15EFE69A00DEFF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiknobSlider/MultiknobSlider-Prefix.pch";
+				INFOPLIST_FILE = "MultiknobSlider/MultiknobSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D220B0615EFE69900DEFF9B /* Build configuration list for PBXProject "MultiknobSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D220B2815EFE69A00DEFF9B /* Debug */,
+				7D220B2915EFE69A00DEFF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D220B2A15EFE69A00DEFF9B /* Build configuration list for PBXNativeTarget "MultiknobSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D220B2B15EFE69A00DEFF9B /* Debug */,
+				7D220B2C15EFE69A00DEFF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D220B0315EFE69900DEFF9B /* Project object */;
+}
